@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/pokemon_detail.dart';
 import '../services/poke_api.dart';
 import '../services/pokemon_likes_manager.dart';
-import 'pokemon_like_screen.dart'; // uniquement si tu veux naviguer vers la page des likes
-// Pour naviguer vers la page des likes
+import 'pokemon_like_screen.dart';
 
 class PokemonDetailScreen extends StatefulWidget {
   final String pokemonUrlOrName;

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class PokemonLikesManager {
-  // Liste des IDs likés
   static final ValueNotifier<List<int>> likedIdsNotifier = ValueNotifier([]);
 
   static void toggleLike(int id) {
